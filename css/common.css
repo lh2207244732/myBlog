@@ -73,3 +73,39 @@ a:hover{
 .qr-panel img{
     width: 100%;
 }
+#article-wrap{
+    min-height: 360px;
+}
+.custom-panel.article-panel .panel-body{
+    background-color: transparent;
+}
+.article-panel .panel-footer{
+    background-color:transparent; 
+    border: none;
+}
+.article-panel .panel-title{
+    border-left: 2px solid #f65a8a;
+    padding-left: 15px;
+    margin-left: -16px;
+}
+.article-panel:hover .panel-title{
+    color: #f65a8a;
+}
+.article-panel .panel-heading a{
+    color: #333;
+}
+.article-panel .footer-text{
+    margin-right: 10px;
+}
+.article-panel .view-num{
+    font-style: italic;
+}
+.pagination>li.active>a,.pagination>li.active>a:hover{
+    background-color: #eee;
+    border-color: #ddd;
+    color: #f65a8a !important;
+}
+footer{
+    text-align: center;
+    padding: 20px 0;
+}
